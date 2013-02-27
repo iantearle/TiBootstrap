@@ -1,18 +1,17 @@
-Welcome to your Appcelerator Titanium Mobile Project
+This is the culmination of 1 hours work after an idea popped into my head for creating a quick to apply set of reusable compenents.
 
-This is a blank project.  Start by editing your application's app.js to 
-make your first mobile project using Titanium.
+There is a heck of a lot to do. What I have started is probably NOT the best approach, which is why im reaching out to the community now.
+Please help me make a bootstrap for the titanium community. Pull request to your hearts content. 
+
+What next?
+
+The grid is layed out. Proof of concept works. My aim is to work through the Bootstrap website/CSS top down, creating components like for like.
+
+The rest is open for discussion.
 
 
+First major TODO: chainable functions. I want to be able to write:
 
-----------------------------------
-Stuff our legal folk make us say:
+window.add(container.row.span1.add(p('Text'));
 
-Appcelerator, Appcelerator Titanium and associated marks and logos are 
-trademarks of Appcelerator, Inc. 
-
-Titanium is Copyright (c) 2008-2013 by Appcelerator, Inc. All Rights Reserved.
-
-Titanium is licensed under the Apache Public License (Version 2). Please
-see the LICENSE file for the full license.
-
+Again, my starter attempts will not allow for this right now. Needs reorganisation.
