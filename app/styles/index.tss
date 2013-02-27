@@ -1,0 +1,93 @@
+".body": {
+	backgroundColor:"white",
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL
+}
+".showgrid": {
+	backgroundColor: '#eee',
+	textAlign: 'center',
+	borderRadius: 3,
+	height: 40
+}
+".container": {
+	backgroundColor:"white",
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+	top: 0,
+},
+
+".row": {
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+	top: 10,
+	bottom: 20
+}
+
+".span1": {
+	width: '6.382978723404255%',
+	left: '2.117659574468085%'
+}
+
+".span2": {
+	width: '14.893617021276595%',
+	left: '2.117659574468085%'
+}
+
+".span3": {
+	 width: '23.404255319148934%',
+	 left: '2.117659574468085%'
+}
+
+".span4": {
+		width: '31.914893617021278%',
+		left: '2.117659574468085%'
+}
+
+".span5": {
+	width: '40.42553191489362%',
+	left: '2.117659574468085%'
+}
+
+".span6": {
+	width: '48.83617021276595%',
+	left: '2.117659574468085%'
+}
+
+".span7": {
+	width: '57.44680851063829%',
+	left: '2.117659574468085%'
+}
+
+".span8": {
+	width: '65.95744680851064%',
+	left: '2.117659574468085%'
+}
+
+".span9": {
+	width: '74.46808510638297%',
+	left: '2.117659574468085%'
+}
+
+".span10": {
+	width: '82.97872340425532%',
+	left: '2.117659574468085%'
+}
+
+".span11": {
+	width: '91.48936170212765%',
+	left: '2.117659574468085%'
+}
+
+".span12": {
+	width: Ti.UI.FILL
+}
+
+".first": {
+	left: 0
+}
+
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000"
+}

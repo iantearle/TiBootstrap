@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:app xmlns:ti="http://ti.appcelerator.org">
-    <property name="acs-oauth-secret-production" type="string">kyjElgneIIl07HnHr84jv5Rv6SYib6NB</property>
-    <property name="acs-oauth-key-production" type="string">jNm6R0YTx2pAlQkVsyUBv1W5q31txU1W</property>
-    <property name="acs-api-key-production" type="string">2wC9LBU4q07v4wFeafY5ObD3O76RbG1i</property>
-    <property name="acs-oauth-secret-development" type="string">FPBQvf78vUctjpJb4Y8rsQqWS6KiqO1a</property>
-    <property name="acs-oauth-key-development" type="string">23VoxrkCx8qHJVsm3y0AZlunBGOrJFw2</property>
-    <property name="acs-api-key-development" type="string">Dz8ka7YBcbpMt85Hefa0lLH5SAgOnY2t</property>
+    <property name="acs-oauth-secret-production" type="string">Q0odWiB1L6PAQ9HTaBAXhnwly4Q6W7Jg</property>
+    <property name="acs-oauth-key-production" type="string">OJPbHlx1YjjQDgmznk63XiL1uhLHfeHU</property>
+    <property name="acs-api-key-production" type="string">6EBID3T6FM1qdFppE3GTEk3q2cZo3Stx</property>
+    <property name="acs-oauth-secret-development" type="string">678UFDSMEktyTxOdJTV9KC7RtdeyiLKr</property>
+    <property name="acs-oauth-key-development" type="string">u22TUym57Web2ToYiQgEL59nRKYffyWq</property>
+    <property name="acs-api-key-development" type="string">9amJqvk1BdlqTyvASawT3xmwr6nE4YIg</property>
     <id>com.littlepolarapps.tibootstrap</id>
     <name>TiBootstrap</name>
     <version>1.0</version>
@@ -21,7 +21,7 @@
     <fullscreen>false</fullscreen>
     <navbar-hidden>false</navbar-hidden>
     <analytics>true</analytics>
-    <guid>8c057af7-eabc-41bb-9e46-f99ae116b2e1</guid>
+    <guid>a51ffd57-59f7-43c5-8215-36dd4bfb389b</guid>
     <property name="ti.ui.defaultunit" type="string">system</property>
     <iphone>
         <orientations device="iphone">
@@ -54,4 +54,7 @@
         <target device="mobileweb">false</target>
     </deployment-targets>
     <sdk-version>3.0.2.GA</sdk-version>
+    <plugins>
+        <plugin version="1.0">ti.alloy</plugin>
+    </plugins>
 </ti:app>
