@@ -3,12 +3,11 @@
 	width: Ti.UI.FILL,
 	height: Ti.UI.FILL
 }
-".showgrid": {
-	backgroundColor: '#eee',
-	textAlign: 'center',
-	borderRadius: 3,
-	height: 40
+
+".vertical": {
+	layout: 'vertical'
 }
+
 ".container": {
 	backgroundColor:"white",
 	width: Ti.UI.FILL,
@@ -24,70 +23,199 @@
 }
 
 ".span1": {
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
 	width: '6.382978723404255%',
 	left: '2.117659574468085%'
 }
 
 ".span2": {
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
 	width: '14.893617021276595%',
 	left: '2.117659574468085%'
 }
 
 ".span3": {
-	 width: '23.404255319148934%',
-	 left: '2.117659574468085%'
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+	width: '23.404255319148934%',
+	left: '2.117659574468085%'
 }
 
 ".span4": {
-		width: '31.914893617021278%',
-		left: '2.117659574468085%'
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+	width: '31.914893617021278%',
+	left: '2.117659574468085%'
 }
 
 ".span5": {
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
 	width: '40.42553191489362%',
 	left: '2.117659574468085%'
 }
 
 ".span6": {
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
 	width: '48.83617021276595%',
 	left: '2.117659574468085%'
 }
 
 ".span7": {
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
 	width: '57.44680851063829%',
 	left: '2.117659574468085%'
 }
 
 ".span8": {
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
 	width: '65.95744680851064%',
 	left: '2.117659574468085%'
 }
 
 ".span9": {
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
 	width: '74.46808510638297%',
 	left: '2.117659574468085%'
 }
 
 ".span10": {
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
 	width: '82.97872340425532%',
 	left: '2.117659574468085%'
 }
 
 ".span11": {
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
 	width: '91.48936170212765%',
 	left: '2.117659574468085%'
 }
 
 ".span12": {
-	width: Ti.UI.FILL
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE
+}
+
+".offset1": {
+	left: '11.32596685082873%'
+}
+
+".offset2": {
+	left: '19.88950276243094%'
+}
+
+".offset3": {
+	left: '28.346655695309746%'
+}
+
+".offset4": {
+	left: '34.14776066768544%'
+}
+
+".offset5": {
+	left: '45.58011049723757%'
+}
+
+".offset6": {
+	left: '54.14364640883978%'
+}
+
+".offset7": {
+	left: '62.70718232044199%'
+}
+
+".offset8": {
+	left: '71.2707182320442%'
+}
+
+".offset9": {
+	left: '79.8342541436464%'
+}
+
+".offset10": {
+	left: '88.39779005524862%'
+}
+
+".offset11": {
+	left: '96.96132596685082%'
+}
+
+".offset12": {
+	width: Ti.UI.FILL,
+	height:Ti.UI.SIZE,
 }
 
 ".first": {
 	left: 0
 }
 
+".h1": {
+	height: 40,
+	width: Ti.UI.FILL,
+	textAlign: 'left',
+	top: 10,
+	bottom: 10,
+	left: 5,
+	font: {
+		fontSize: 38.5,
+		fontFamily:'Helvetica Neue',
+		fontWeight: 'bold'
+	},
+	color: '#333333'
+}
+
+".h2": {
+	height: 40,
+	width: Ti.UI.FILL,
+	textAlign: 'left',
+	top: 10,
+	bottom: 10,
+	left: 5,
+	font: {
+		fontSize: 31.5,
+		fontFamily:'Helvetica Neue',
+		fontWeight: 'bold'
+	},
+	color: '#333333'
+}
+".h3": {
+	font: {
+		fontSize: 24.5
+	}
+}
+".h4": {
+	font: {
+		fontSize: 17.5
+	}
+}
+".h5": {
+	font: {
+		fontSize: 14
+	}
+}
+".h6": {
+	font: {
+		fontSize: 11.9
+	}
+}
+
 "Label": {
 	width: Ti.UI.SIZE,
 	height: Ti.UI.SIZE,
 	color: "#000"
+}
+
+".showgrid": {
+	backgroundColor: '#eee',
+	textAlign: 'center',
+	borderRadius: 3,
+	height: 40
 }
